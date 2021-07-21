@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'BailJamjuree';
+    src: url('./BaiJamjuree-Regular.ttf');
+}
+@font-face {
+    font-family: 'BungeeShade';
+    src: url('./BungeeShade-Regular.ttf');
+}
+@font-face {
+    font-family: 'BlackOpsO';
+    src: url('./BlackOpsOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('./Nunito-Regular.ttf');
+}
+a{
+    font-family: 'Nunito';
+    color: white;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 1s;
+    font-size: 16px;
+}
+a.bouton{
+    border: transparent;
+    background-color: transparent;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'BungeeShade';
+}
+h2,h3,h5,h6,p,form,option{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Nunito';
+}
+h3{
+    color: white;
+    background-color: #b67e0500;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+p{
+    color: white;
+    background-color: #07050000;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+body {
+    text-align: center;
+    color:rgb(0, 195, 202);
+    background: rgb(94,52,0);
+    background: linear-gradient(90deg, rgba(94,52,0,1) 0%, rgba(131,86,0,1) 35%, rgba(176,112,0,1) 100%);
+    background-position:center center;
+    margin:0.5cm;
+}
+
+input{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    color: #000000;
+}
+
+
+img{
+    width:70%;
+}
